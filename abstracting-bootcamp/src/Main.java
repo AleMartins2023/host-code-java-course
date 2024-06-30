@@ -2,8 +2,10 @@ import java.time.LocalDate;
 import java.util.Scanner;
 
 import br.com.dio.desafio.dominio.Curso;
+import br.com.dio.desafio.dominio.Dev;
 import br.com.dio.desafio.dominio.Mentoria;
-
+import br.com.dio.desafio.dominio.Bootcamp;
+import br.com.dio.desafio.dominio.Conteudo;
 
 public class Main {
     public static void main(String[] args) {
@@ -54,7 +56,35 @@ public class Main {
 
         System.out.println(mentoria);
         
+        //podemos criar um curso a partir da classe abstrata
+            //polimorfismo
+                //Conteudo conteudo = new Curso();
+                //outros exemplos de polimorfismo: list<String> palavras = new ArrayList<>();
+        
+        //instanciando o bootcamp e dev
 
+        Bootcamp bootcamp = new Bootcamp();
+        bootcamp.setNome("Bootcamp Java");
+        bootcamp.setDescricao("Descricao do bootcamp de java");
+        bootcamp.getConteudos().add(curso1);
+        bootcamp.getConteudos().add(curso2);
+        bootcamp.getConteudos().add(mentoria);
+
+        Dev dev1 = new Dev();
+        dev1.setNome("Fulano");
+        dev1.inscreverBootcamp(bootcamp);
+        dev1.progredir();
+        dev1.progredir();
+        System.out.println("Conteudos inscritos do dev1: " + dev1.getConteudoInscritos());
+        System.out.println("Conteudos concluidos do dev1: " + dev1.getConteudoConcluidos());
+        System.out.println("XP " + dev1.calcularTotalXp());
+
+        Dev dev2 = new Dev();
+        dev2.setNome("Siclano");
+        dev2.inscreverBootcamp(bootcamp);
+        System.out.println("Conteudos inscritos do dev2 " + dev2.getConteudoInscritos());
+        System.out.println("Conteudos concluidos do dev2 " + dev2.getConteudoConcluidos());
+        
 
     }
 }

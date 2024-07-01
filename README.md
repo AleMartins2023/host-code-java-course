@@ -10,19 +10,18 @@
         📁/README.md
 
                 📂/abstracting-bootcamp
+                📂/examples
+                📂/Maven
+                
 
-                    /.vscode
-
-                    /lib
-                    
-                    /src
 
 ## Conteúdo
 
 | Pasta | Objetivo | Material de apoio |
 | ------ | -------- | ----------------- |
 | abstracting-bootcamp | Praticar os principais pilares do Paradigma de Programação Orientado a Objetos. | [desafio-poo-dio](https://github.com/cami-la/desafio-POO-DIO) |
-| | | |
+| examples | Atividades para praticar as propriedades básicas da linguagem | - |
+| Maven | Gerenciamento de Dependências e Build em Java com Maven | - |
 
 
 ## Links

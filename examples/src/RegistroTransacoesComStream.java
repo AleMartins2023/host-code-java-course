@@ -8,44 +8,37 @@ public class RegistroTransacoesComStream {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        // Solicita e lê o saldo inicial da conta
-        System.out.print("Informe o saldo inicial da conta: ");
+        // Solicita o saldo inicial ao usuário
+        System.out.print("Digite o saldo inicial: ");
         double saldo = scanner.nextDouble();
 
-        // Solicita e lê a quantidade total de transações
-        System.out.print("Informe a quantidade de transações: ");
+        // Solicita a quantidade de transações ao usuário
+        System.out.print("Digite a quantidade de transações: ");
         int quantidadeTransacoes = scanner.nextInt();
 
-        // Lista para armazenar as transações
         List<Transacao> transacoes = new ArrayList<>();
 
-        // Loop para iterar sobre as transações
         for (int i = 1; i <= quantidadeTransacoes; i++) {
-            // Solicita e lê o tipo de transação
-            System.out.print("Informe o tipo de transação (D para depósito, S para saque): ");
-            char tipoTransacao = scanner.next().toUpperCase().charAt(0);
-
-            // Solicita e lê o valor da transação
-            System.out.print("Informe o valor da transação: ");
+            // Solicita o tipo e valor da transação ao usuário
+            System.out.print("Digite o tipo da transação (d para depósito, s para saque): ");
+            char tipoTransacao = scanner.next().charAt(0);
+            System.out.print("Digite o valor da transação: ");
             double valorTransacao = scanner.nextDouble();
 
-            // Cria uma nova transação e a adiciona à lista de transações
+            // Criar uma nova transação e adicioná-la à lista de transações
             Transacao transacao = new Transacao(tipoTransacao, valorTransacao);
             transacoes.add(transacao);
 
             // Verifica e atualiza o saldo da conta com base no tipo de transação
-            if (transacao.getTipo() == 'D') {
+            if (Character.toUpperCase(transacao.getTipo()) == 'D') {
                 saldo += valorTransacao;
-            } else if (transacao.getTipo() == 'S') {
+            } else if (Character.toUpperCase(transacao.getTipo()) == 'S') {
                 saldo -= valorTransacao;
             }
         }
 
-        // Exibir o saldo final
         System.out.println("\nSaldo: " + saldo);
-
-        // Exibir a lista de transações
-        System.out.println("Transacoes:");
+        System.out.println("\nTransações:");
         transacoes.stream()
                 .map(transacao -> transacao.getTipo() + " de " + transacao.getValor())
                 .collect(Collectors.toList())
@@ -56,7 +49,6 @@ public class RegistroTransacoesComStream {
     }
 }
 
-// Classe para representar uma transação
 class Transacao {
     private char tipo;
     private double valor;

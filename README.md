@@ -21,7 +21,7 @@
 | ------ | -------- | ----------------- |
 | abstracting-bootcamp | Praticar os principais pilares do Paradigma de Programação Orientado a Objetos. | [desafio-poo-dio](https://github.com/cami-la/desafio-POO-DIO) |
 | examples | Atividades para praticar as propriedades básicas da linguagem | - |
-| maven | Gerenciamento de Dependências e Build em Java com Maven | - |
+| maven | Gerenciamento de Dependências e Build em Java com Maven | [documentação](https://maven.apache.org/guides/index.html) |
 
 
 ## Links

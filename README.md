@@ -24,6 +24,7 @@
 | maven | Gerenciamento de Dependências e Build em Java com Maven | [documentação](https://maven.apache.org/guides/index.html) |
 | - | Teste Unitários com JUnit | [junit5-exemplos](https://github.com/willyancaetano/junit5-exemplos) |
 | - | Desenvolvendo testes utilizando o Mockito | [mockito-exemplos](https://github.com/willyancaetano/mockito-exemplos) |
+| - | Introdução a Banco de Dados Relacionais (SQL) | [dio-bd-relacional](https://github.com/pamelaborges/dio-bd-relacional.git) |
 
 ## Links
 

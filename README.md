@@ -32,3 +32,5 @@
 - [MVNRepository](https://mvnrepository.com/)
 - [SQLiteonline.com](https://sqliteonline.com/)
 - [Mermaid](https://mermaid.js.org/intro/)
+- [Visual Paradigm](https://online.visual-paradigm.com/drive/#infoart:proj=0&dashboard)
+- [Mindmeister](https://www.mindmeister.com/pt)

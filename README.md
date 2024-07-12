@@ -30,3 +30,5 @@
 
 - [gitignore.io](https://www.toptal.com/developers/gitignore/)
 - [MVNRepository](https://mvnrepository.com/)
+- [SQLiteonline.com](https://sqliteonline.com/)
+- [Mermaid](https://mermaid.js.org/intro/)

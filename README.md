@@ -25,6 +25,7 @@
 | - | Teste Unitários com JUnit | [junit5-exemplos](https://github.com/willyancaetano/junit5-exemplos) |
 | - | Desenvolvendo testes utilizando o Mockito | [mockito-exemplos](https://github.com/willyancaetano/mockito-exemplos) |
 | - | Introdução a Banco de Dados Relacionais (SQL) | [dio-bd-relacional](https://github.com/pamelaborges/dio-bd-relacional.git) |
+| - | Introdução ao MongoDB e Bancos de Dados NoSQL | [MongoDB.](https://www.mongodb.com/pt-br/docs/manual/introduction/)|
 
 ## Links
 
@@ -34,3 +35,6 @@
 - [Mermaid](https://mermaid.js.org/intro/)
 - [Visual Paradigm](https://online.visual-paradigm.com/drive/#infoart:proj=0&dashboard)
 - [Mindmeister](https://www.mindmeister.com/pt)
+- [DB-engines](https://db-engines.com/en/ranking)
+- [Building with patterns: a summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
+- [Neo4j](https://sandbox.neo4j.com/)

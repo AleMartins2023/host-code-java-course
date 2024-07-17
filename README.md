@@ -40,3 +40,4 @@
 - [DB-engines](https://db-engines.com/en/ranking)
 - [Building with patterns: a summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
 - [Neo4j](https://sandbox.neo4j.com/)
+- [GitHub da DIO](https://github.com/digitalinnovationone)

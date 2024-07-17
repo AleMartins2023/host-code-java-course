@@ -27,7 +27,7 @@
 | - | Introdução a Banco de Dados Relacionais (SQL) | [dio-bd-relacional](https://github.com/pamelaborges/dio-bd-relacional.git) |
 | - | Introdução ao MongoDB e Bancos de Dados NoSQL | [MongoDB.](https://www.mongodb.com/pt-br/docs/manual/introduction/)|
 | - | Introdução a Spring Framework com Spring Boot | [springboot](https://github.com/digitalinnovationone/dio-springboot)|
-| - | Criando uma API REST Documentada com Spring Web e Swagger | [dio-springboot](https://github.com/digitalinnovationone/dio-springboot)|
+| my-first-web-api | Criando uma API REST Documentada com Spring Web e Swagger | [dio-springboot](https://github.com/digitalinnovationone/dio-springboot)|
 
 ## Links
 

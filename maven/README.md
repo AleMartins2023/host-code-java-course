@@ -21,4 +21,3 @@
 
 - [Maven Archetype Webapp](https://maven.apache.org/archetypes/maven-archetype-webapp/)
 
-Gerenciando dependências

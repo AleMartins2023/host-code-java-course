@@ -1,4 +1,4 @@
-package Gof;
+package Gof.Singleton;
 
 public class SingletonLazy {
 

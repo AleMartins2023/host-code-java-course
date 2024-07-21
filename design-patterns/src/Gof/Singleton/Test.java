@@ -1,5 +1,6 @@
 package Gof.Singleton;
 
+import Gof.Facade.Facade;
 import Gof.Strategy.Comportamento;
 import Gof.Strategy.ComportamentoAgressivo;
 import Gof.Strategy.ComportamentoDenfesivo;
@@ -55,6 +56,12 @@ public class Test {
         robo.mover();
         robo.mover();
         robo.mover();
+
+        //Facade
+
+        Facade facade = new Facade();
+        facade.migrarCliente("Alessia", "123456789");
+
     }
     
 }

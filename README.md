@@ -16,9 +16,9 @@
                 
 
 
-## Conteúdo
+## Content
 
-| Pasta | Objetivo | Material de apoio |
+| Folder | Topic | Material |
 | ------ | -------- | ----------------- |
 | abstracting-bootcamp | Praticar os principais pilares do Paradigma de Programação Orientado a Objetos. | [desafio-poo-dio](https://github.com/cami-la/desafio-POO-DIO) |
 | examples | Atividades para praticar as propriedades básicas da linguagem | - |
@@ -29,6 +29,7 @@
 | - | Introdução ao MongoDB e Bancos de Dados NoSQL | [MongoDB.](https://www.mongodb.com/pt-br/docs/manual/introduction/)|
 | - | Introdução a Spring Framework com Spring Boot | [springboot](https://github.com/digitalinnovationone/dio-springboot)|
 | my-first-web-api | Criando uma API REST Documentada com Spring Web e Swagger | [dio-springboot](https://github.com/digitalinnovationone/dio-springboot)|
+| - | Adicionando Segurança a uma API REST com Spring Security | [dio-springboot](https://github.com/digitalinnovationone/dio-springboot)|
 
 ## Links
 

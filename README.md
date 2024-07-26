@@ -43,3 +43,4 @@
 - [Building with patterns: a summary](https://www.mongodb.com/blog/post/building-with-patterns-a-summary)
 - [Neo4j](https://sandbox.neo4j.com/)
 - [GitHub da DIO](https://github.com/digitalinnovationone)
+- [json editor online](https://jsoneditoronline.org/)
